@@ -1,7 +1,7 @@
 from sqlmodel import SQLModel, Field
 from typing import Optional
 from datetime import datetime, timezone
-
+   # PRUEBA DE GIT DANI
 class UsuarioBase(SQLModel):
     username: str = Field(index=True, unique=True, max_length=50)
     nombre: str = Field(max_length=150)
